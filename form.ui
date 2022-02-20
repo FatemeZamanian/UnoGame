@@ -58,27 +58,6 @@ font: 75 italic 9pt &quot;Adobe Caslon Pro&quot;;
     <string>Exit</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnnewgame_2">
-   <property name="enabled">
-    <bool>true</bool>
-   </property>
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>260</y>
-     <width>91</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-image: url(1.jpg);
-font: 75 italic 9pt &quot;Adobe Caslon Pro&quot;;
-</string>
-   </property>
-   <property name="text">
-    <string>2 Player</string>
-   </property>
-  </widget>
  </widget>
  <resources/>
  <connections/>

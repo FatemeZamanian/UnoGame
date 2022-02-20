@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>529</width>
-    <height>474</height>
+    <width>530</width>
+    <height>540</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>530</width>
+    <height>540</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>530</width>
+    <height>540</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Form</string>
@@ -21,7 +33,7 @@
   <widget class="QPushButton" name="btnuno">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>230</x>
      <y>290</y>
      <width>51</width>
      <height>31</height>
@@ -36,28 +48,11 @@ font: 75 italic 9pt &quot;Adobe Caslon Pro&quot;;
     <string>UNO</string>
    </property>
   </widget>
-  <widget class="QLabel" name="lbl_turn">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>170</y>
-     <width>111</width>
-     <height>81</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-image: url(btnuno.jpg);
-font: 75 italic 9pt &quot;Adobe Caslon Pro&quot;;</string>
-   </property>
-   <property name="text">
-    <string>turn:</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="lbl_center">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>170</y>
+     <x>220</x>
+     <y>160</y>
      <width>75</width>
      <height>121</height>
     </rect>
@@ -97,6 +92,66 @@ font: 75 italic 9pt &quot;Adobe Caslon Pro&quot;;</string>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="l_pc"/>
+  </widget>
+  <widget class="QLabel" name="lbl_status">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>180</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 italic 9pt &quot;Adobe Caslon Pro&quot;;
+color: rgb(92, 53, 102);
+background-color: rgb(245, 121, 0);</string>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhMultiLine</set>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="margin">
+    <number>12</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_turn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 italic 9pt &quot;Adobe Caslon Pro&quot;;
+background-color: rgb(245, 121, 0);
+color: rgb(211, 215, 207);</string>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhMultiLine</set>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="margin">
+    <number>12</number>
+   </property>
   </widget>
  </widget>
  <resources/>
